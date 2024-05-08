@@ -38,6 +38,7 @@
   ],
   "type": "module",
   "dependencies": {
-    "@types/bun": "^1.1.1"
+    "@types/bun": "^1.1.1",
+    "bun": "^1.1.7"
   }
 }
