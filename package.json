@@ -36,5 +36,8 @@
   "trustedDependencies": [
     "svelte-preprocess"
   ],
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.10"
+  }
 }
