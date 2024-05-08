@@ -9,8 +9,8 @@
 	<div class="px-7 py-24"><slot /></div>
 </div>
 <div
-	class="fixed bottom-0 left-0 w-full z-10 p-2 text-sm text-primary flex flex-col md:flex-row justify-between bg-base-100"
+	class="fixed bottom-0 left-0 w-full z-10 p-2 text-sm text-primary flex flex-col md:flex-row justify-between bg-base-100 items-center"
 >
-	<div>Built using SvelteKit, Tailwind & DaisyUI. Deployed on Vercel.</div>
+	<div class="text-center">Built using SvelteKit, Tailwind & DaisyUI. Deployed on Vercel.</div>
 	<div>© Chandram Dutta 2024</div>
 </div>

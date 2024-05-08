@@ -1,0 +1,39 @@
+[
+	{
+		"social": "Mail",
+		"link": "mailto:chandramdutta2004@gmail.com",
+		"icon": "icons/mail.svg",
+		"title": "chandramdutta2004@gmail.com"
+	},
+	{
+		"social": "GitHub",
+		"link": "https://www.github.com/Chandram-Dutta",
+		"icon": "icons/github.svg",
+		"title": "@Chandram-Dutta"
+	},
+
+	{
+		"social": "X",
+		"link": "https://www.twitter.com/ChandramDutta",
+		"icon": "icons/x.svg",
+		"title": "@ChandramDutta"
+	},
+	{
+		"social": "LinkedIn",
+		"link": "https://www.linkedin.com/in/chandramdutta/",
+		"icon": "icons/linkedin.svg",
+		"title": "@chandramdutta"
+	},
+	{
+		"social": "Instagram",
+		"link": "https://www.instagram.com/chandram.dutta",
+		"icon": "icons/instagram.svg",
+		"title": "@chandram.dutta"
+	},
+	{
+		"social": "BeReal",
+		"link": "https://www.bere.al/chandramdutta",
+		"icon": "icons/bereal.svg",
+		"title": "@chandramdutta"
+	}
+]
