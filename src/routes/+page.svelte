@@ -24,5 +24,5 @@ Here's my
 	href="https://drive.google.com/file/d/10HFFuemNwOnNhKkyOMIEfrnibsr30bbh/view?usp=sharing"
 	>Résumé</a
 >. And my <a class="underline" href="/socials">socials</a> ;-).<br /><br />
-Some of my <a class="underline" href="/work">side projects</a>... and a
+Some of my <a class="underline" href="/work">work</a>... and a
 <a class="underline" href="/publications">paper</a> I have published.

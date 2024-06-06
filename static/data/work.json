@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Adora App",
+		"designation": "Software Engineer Intern",
+		"date": "February 2024 - Present",
+		"location": "Remote",
+		"description": "Worked on the Adora Child and Parent App. Developed UIs and features using Flutter & Dart with localization support. Analysed & Fixed Bugs using Firebase Crashlytics.",
+		"skills": "Flutter, Dart, Swift, Firebase",
+		"links": [
+			{
+				"url": "https://www.adora-app.com/",
+				"title": "Adora",
+				"icon": "https://img.icons8.com/ios/50/domain--v1.png"
+			}
+		]
+	},
+	{
+		"title": "Ioninks",
+		"designation": "Freelance Flutter Developer",
+		"date": "June 2022 - December 2023",
+		"location": "Remote",
+		"description": "Developed Garuda Exams as the only developer on the team within a span of 3 months. Started work on 3 more applications for clients.",
+		"skills": "Flutter, Dart, Firebase",
+		"links": [
+			{
+				"url": "https://play.google.com/store/apps/details?id=in.garudaexams.garudaexams",
+				"title": "Garuda Exams on Play Store",
+				"icon": "https://img.icons8.com/ios/50/google-play--v1.png"
+			}
+		]
+	},
+	{
+		"title": "Flutter Icon Browser",
+		"description": "Browse, search and get the code for any icons available in Flutter across five different packages. Available in Play Store, Desktop and the web.",
+		"skills": "Flutter, Dart",
+		"links": [
+			{
+				"url": "https://play.google.com/store/apps/details?id=me.chandramdutta.flutter_icon_browser",
+				"title": "Flutter Icon Browser on Play Store",
+				"icon": "https://img.icons8.com/ios/50/google-play--v1.png"
+			}
+		]
+	}
+]
