@@ -18,11 +18,14 @@ Here are some pointers to help you get to know me better.<br /><br />
 	</li>
 </ul>
 <br />
-Here's my
 <a
 	class="underline"
 	href="https://drive.google.com/file/d/10HFFuemNwOnNhKkyOMIEfrnibsr30bbh/view?usp=sharing"
-	>Résumé</a
->. And my <a class="underline" href="/socials">socials</a> ;-).<br /><br />
-Some of my <a class="underline" href="/work">work</a>... and a
-<a class="underline" href="/publications">paper</a> I have published.
+	>resume</a
+>
+•
+<a class="underline" href="/socials">socials</a>
+•
+<a class="underline" href="/work">work</a>
+•
+<a class="underline" href="/publications">publications</a>

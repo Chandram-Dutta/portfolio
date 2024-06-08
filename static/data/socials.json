@@ -6,6 +6,12 @@
 		"title": "chandramdutta2004@gmail.com"
 	},
 	{
+		"social": "Google Scholar",
+		"link": "https://links.onlychan.xyz/gscholar",
+		"icon": "icons/google-scholar.svg",
+		"title": "Chandram Dutta"
+	},
+	{
 		"social": "GitHub",
 		"link": "https://links.onlychan.xyz/github",
 		"icon": "icons/github.svg",

@@ -19,7 +19,7 @@
 	{:else}
 		{#each data as social}
 			<div class="flex flex-row items-center p-2">
-				<img class="h-8 pr-4" src={social.icon} alt="social.social" /><a
+				<img class="h-8 pr-4 fill" src={social.icon} alt="social.social" /><a
 					class="underline"
 					href={social.link}>{social.title}</a
 				>
