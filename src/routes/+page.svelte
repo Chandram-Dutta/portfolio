@@ -18,11 +18,7 @@ Here are some pointers to help you get to know me better.<br /><br />
 	</li>
 </ul>
 <br />
-<a
-	class="underline"
-	href="https://drive.google.com/file/d/10HFFuemNwOnNhKkyOMIEfrnibsr30bbh/view?usp=sharing"
-	>resume</a
->
+<a class="underline" href="https://links.onlychan.xyz/resume">resume</a>
 •
 <a class="underline" href="/socials">socials</a>
 •
