@@ -2,10 +2,10 @@
 	{
 		"title": "Adora App",
 		"designation": "Software Engineering Intern",
-		"date": "February 2024 - Present",
+		"date": "February 2024 - July 2024",
 		"location": "Remote",
 		"description": "Worked on the Adora Child and Parent App. Developed UIs and features using Flutter & Dart with localization support. Analysed & Fixed Bugs using Firebase Crashlytics.",
-		"skills": "Flutter, Dart, Swift, Firebase",
+		"skills": "Flutter, Dart, Swift, Firebase, Typescript, GCP",
 		"links": [
 			{
 				"url": "https://www.adora-app.com/",

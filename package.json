@@ -35,6 +35,9 @@
     "format": "prettier --write ."
   },
   "trustedDependencies": [
+    "@sveltejs/kit",
+    "@vercel/speed-insights",
+    "esbuild",
     "svelte-preprocess"
   ],
   "type": "module",

@@ -19,7 +19,7 @@
 	{:else}
 		{#each data as work}
 			<div class="flex flex-col items-start p-2">
-				<h2 class="font-bold text-2xl text-accent">{work.title}</h2>
+				<h2 class="font-bold text-2xl text-primary">{work.title}</h2>
 				<div class="flex flex-row text-sm text-secondary">
 					{#if work.designation != null}
 						{work.designation} |

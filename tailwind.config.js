@@ -4,12 +4,12 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			'jb-mono': ['JetBrains Mono', 'monospace']
+			bitter: ['Bitter', 'serifserif']
 		},
 		listStyleType: ['dash']
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 	daisyui: {
-		themes: ['night']
+		themes: ['acid']
 	}
 };
