@@ -4,12 +4,9 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			bitter: ['Bitter', 'serifserif']
+			bodonimoda: ['Bodoni Moda', 'serif']
 		},
 		listStyleType: ['dash']
 	},
-	plugins: [require('@tailwindcss/typography'), require('daisyui')],
-	daisyui: {
-		themes: ['acid']
-	}
+	plugins: [require('@tailwindcss/typography')],
 };

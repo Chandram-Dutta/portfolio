@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { onMount } from 'svelte';
 
 	/**
@@ -43,4 +43,4 @@
 			</div>
 		{/each}
 	{/if}
-</div>
+</div> -->
