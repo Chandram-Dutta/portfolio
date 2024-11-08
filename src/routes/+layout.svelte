@@ -1,9 +1,11 @@
 <script>
 	import '../app.css';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-
+	import { Toaster } from 'svelte-hot-french-toast';
 	injectSpeedInsights();
 </script>
+
+<div class="z-10"><Toaster /></div>
 
 <div class="min-h-screen flex justify-center items-center p-4 flex-col">
 	<slot />

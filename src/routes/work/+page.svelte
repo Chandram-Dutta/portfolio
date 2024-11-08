@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import toast, { Toaster } from 'svelte-french-toast';
+	import toast, { Toaster } from 'svelte-hot-french-toast';
 
 	type Work = {
 		title: string;
@@ -20,9 +19,10 @@
 
 	let data: Work[] = [];
 
-	onMount(() => {
-		toast.success('It works!');
-	});
+	const makeToast = () => {
+		toast.success('Hello, World!');
+	};
+
 	// async function load() {
 	// 	toast.error("This didn't work.");
 
@@ -47,7 +47,8 @@
 </script>
 
 <div class="flex flex-col">
-	<Toaster />
+	<button on:click={makeToast}>Toast</button>
+
 	{#if data.length === 0}
 		Loading...
 	{:else}
