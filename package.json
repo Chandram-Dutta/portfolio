@@ -12,7 +12,8 @@
 		"format": "prettier --write ."
 	},
 	"resolutions": {
-		"string-width": "^7.2.0"
+		"wrap-ansi": "7.0.0",
+		"string-width": "4.1.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.3.1",
