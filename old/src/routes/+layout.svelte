@@ -5,12 +5,12 @@
 	injectSpeedInsights();
 </script>
 
-<Toaster />
+<div class="z-10"><Toaster /></div>
 
-<div class="flex min-h-screen flex-col items-center justify-center p-4">
+<div class="min-h-screen flex justify-center items-center p-4 flex-col">
 	<slot />
 
-	<div class="fixed bottom-0 left-0 z-10 flex w-screen flex-row justify-center">
+	<div class="fixed bottom-0 left-0 z-10 flex flex-row w-screen justify-center">
 		<a href="/work">Work</a>
 		<span class="mx-2">|</span>
 		<a href="/resume">Resume</a>
