@@ -37,7 +37,12 @@
 			{
 				"url": "/fluttericonbrowser",
 				"title": "Home Page",
-				"icon": "https://img.icons8.com/ios/50/google-play--v1.png"
+				"icon": "https://img.icons8.com/ios/50/domain--v1.png"
+			},
+			{
+				"url": "https://github.com/Chandram-Dutta/flutter_icon_browser",
+				"title": "Github",
+				"icon": "https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
 			}
 		]
 	}
