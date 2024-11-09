@@ -11,6 +11,9 @@
 		"lint": "eslint . && prettier --check .",
 		"format": "prettier --write ."
 	},
+	"resolutions": {
+		"string-width": "^7.2.0"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.8.0",
