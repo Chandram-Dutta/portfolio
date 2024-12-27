@@ -39,19 +39,13 @@
 		Loading...
 	{:else}
 		{#each data as social}
-			<div class="my-2 flex flex-row items-center justify-center">
-				<Button.Root
-					on:click={() => openLink(social.link)}
-					class="flex items-center justify-center rounded-lg bg-[#002379] px-4 py-2 transition hover:bg-[#002379]/95 active:scale-95"
-				>
-					<img
-						src={social.icon}
-						alt={social.social}
-						class="mr-4 h-6 w-6 object-contain"
-						style="width: 36px; height: 36px;"
-					/>
-					<span class="text-[#FF9F66]">{social.title}</span>
-				</Button.Root>
+			<div class="my-2 flex flex-row">
+				<a target="_blank" href={social.link}
+					><p class="">
+						<span class="font-doto text-2xl font-bold">{social.social}</span>:
+						{social.title}
+					</p>
+				</a>
 			</div>
 		{/each}
 	{/if}

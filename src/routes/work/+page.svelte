@@ -24,12 +24,10 @@
 		console.log('load');
 		try {
 			const response = await fetch('/api/work');
-			console.log(response);
 			if (!response.ok) {
 				throw new Error('Failed to fetch data');
 			}
 			data = await response.json();
-			console.log(data);
 		} catch (err) {
 			console.error(err);
 			toast.error("This didn't work.");
@@ -48,9 +46,9 @@
 		Loading...
 	{:else}
 		{#each data as work}
-			<div class="flex flex-col items-start p-2">
-				<h2 class="text-2xl font-bold text-[#FF5F00]">{work.title}</h2>
-				<div class="flex flex-row text-sm font-bold text-[#002379]">
+			<div class="flex flex-col items-start">
+				<h2 class="font-doto mb-2 text-2xl font-bold">{work.title}</h2>
+				<div class="flex flex-row text-sm font-bold">
 					{#if work.designation != null}
 						{work.designation} |
 					{/if}
@@ -61,13 +59,13 @@
 						{work.location}
 					{/if}
 				</div>
-				<div class="text-sm">{work.description}</div>
+				<div>{work.description}</div>
 			</div>
-			<div class="flex flex-wrap">
+			<div class="mb-4 flex flex-wrap">
 				{#each work.links as link}
 					<Button.Root
 						on:click={() => openLink(link.url)}
-						class="my-2 mr-4 flex items-center rounded-lg bg-[#FF9F66] px-4 py-2 transition hover:bg-[#FF9F66]/95 active:scale-95"
+						class="my-2 mr-4 flex items-center rounded-lg bg-white px-4 py-2 text-black transition hover:scale-105 active:scale-95"
 					>
 						<img src={link.icon} alt={link.title} class="mr-2 h-6 w-6 object-contain" />
 						{link.title}

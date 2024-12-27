@@ -7,7 +7,8 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			bodonimoda: ['Bodoni Moda', 'serif'],
+			doto: ['Doto', 'monospace'],
+			ibmPlexMono: ['IBM Plex Mono', 'monospace'],
 		}
 	},
 	plugins: [typography]
