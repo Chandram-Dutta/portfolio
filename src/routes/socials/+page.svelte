@@ -12,15 +12,13 @@
 	};
 
 	async function load() {
-		console.log('load');
 		try {
 			const response = await fetch('/api/socials');
-			console.log(response);
+
 			if (!response.ok) {
 				throw new Error('Failed to fetch data');
 			}
 			data = await response.json();
-			console.log(data);
 		} catch (err) {
 			console.error(err);
 			toast.error("This didn't work.");

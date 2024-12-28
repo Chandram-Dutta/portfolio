@@ -34,9 +34,16 @@
     "vite": "^6.0.6"
   },
   "dependencies": {
+    "@cartamd/plugin-anchor": "^2.1.1",
+    "@cartamd/plugin-code": "^4.0.6",
+    "@cartamd/plugin-emoji": "^4.2.1",
+    "@cartamd/plugin-slash": "^4.1.2",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
-    "bits-ui": "^0.22.0"
+    "bits-ui": "^0.22.0",
+    "carta-md": "^4.6.7",
+    "graphql-request": "^7.1.2",
+    "isomorphic-dompurify": "^2.19.0"
   },
   "trustedDependencies": [
     "@vercel/speed-insights"

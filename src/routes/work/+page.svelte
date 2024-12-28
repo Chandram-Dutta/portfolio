@@ -21,7 +21,6 @@
 	};
 
 	async function load() {
-		console.log('load');
 		try {
 			const response = await fetch('/api/work');
 			if (!response.ok) {
@@ -47,7 +46,7 @@
 	{:else}
 		{#each data as work}
 			<div class="flex flex-col items-start">
-				<h2 class="font-doto mb-2 text-2xl font-bold">{work.title}</h2>
+				<h2 class="mb-2 font-doto text-2xl font-bold">{work.title}</h2>
 				<div class="flex flex-row text-sm font-bold">
 					{#if work.designation != null}
 						{work.designation} |
