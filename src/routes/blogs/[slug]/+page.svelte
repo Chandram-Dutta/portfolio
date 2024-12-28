@@ -8,13 +8,15 @@
 	import { emoji } from '@cartamd/plugin-emoji';
 	import { slash } from '@cartamd/plugin-slash';
 	import { anchor } from '@cartamd/plugin-anchor';
+	import { Button } from 'bits-ui';
+	import { goto } from '$app/navigation';
+	import toast from 'svelte-hot-french-toast';
+	import hashnode from '../../../icons/hashnode.png';
 
 	import '@cartamd/plugin-code/default.css';
 	import '@cartamd/plugin-emoji/default.css';
 	import '@cartamd/plugin-slash/default.css';
 	import '@cartamd/plugin-anchor/default.css';
-	import { goto } from '$app/navigation';
-	import toast from 'svelte-hot-french-toast';
 
 	type PostData = {
 		publication: {
@@ -61,6 +63,10 @@
 		return await request('https://gql.hashnode.com', postQuery, { slug });
 	}
 
+	function openHashnode() {
+		window.open(`https://blogs.onlychan.xyz/${page.params.slug}`, '_blank');
+	}
+
 	let data: PostData;
 	let loading = true;
 	let error: string | null = null;
@@ -93,7 +99,17 @@
 	<p>Error: {error}</p>
 {:else}
 	<h1 class="font-doto text-2xl font-bold">{data.publication.post.title}</h1>
-	<p class="mb-8">{new Date(data.publication.post.publishedAt).toLocaleDateString()}</p>
+	<div class="mb-8 flex items-center gap-4">
+		<p>{new Date(data.publication.post.publishedAt).toLocaleDateString()}</p>
+		<Button.Root
+			on:click={openHashnode}
+			class="m-2 rounded-lg bg-white px-4 py-2 text-black  transition hover:scale-105 active:scale-95"
+		>
+			<div class="flex items-center gap-2">
+				Read on <img src={hashnode} alt="Hashnode" class="h-4 w-4" />
+			</div>
+		</Button.Root>
+	</div>
 	<div class="mb-8 flex flex-col space-y-4" id="mdcontent">
 		{@html renderedContent}
 	</div>
