@@ -21,7 +21,7 @@
 	const publicationsQuery = gql`
 		query Publication {
 			publication(host: "blogs.onlychan.xyz") {
-				posts(first: 50) {
+				posts(first: 20) {
 					edges {
 						node {
 							title
@@ -59,9 +59,9 @@
 	<p>Error: {error}</p>
 {:else}
 	{#each data.publication.posts.edges as { node }}
-		<a href="/blogs/{node.slug}" class="mb-4">
+		<a href="/blogs/{node.slug}">
 			<h2 class="font-doto text-xl font-bold">{node.title}</h2>
-			<p>{new Date(node.publishedAt).toLocaleDateString()}</p>
+			<p class="mb-4">{new Date(node.publishedAt).toLocaleDateString()}</p>
 		</a>
 	{/each}
 {/if}
