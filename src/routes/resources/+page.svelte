@@ -38,8 +38,8 @@ too!
 {:else}
 	{#each data as resource}
 		<div class="mt-4 flex flex-col items-start">
-			<a class="transition hover:underline" target="_blank" href={resource.link}>
-				- {resource.title}</a
+			<a target="_blank" href={resource.link}>
+				- <span class="transition hover:underline">{resource.title}</span></a
 			>
 		</div>
 	{/each}
