@@ -10,5 +10,13 @@
     {
         "title": "Papers we love",
         "link": "https://github.com/papers-we-love/papers-we-love"
+    },
+    {
+        "title": "Let's Build a Simple Database",
+        "link": "https://cstack.github.io/db_tutorial/"
+    },
+    {
+        "title": "Build your own X",
+        "link": "https://github.com/codecrafters-io/build-your-own-x"
     }
 ]
