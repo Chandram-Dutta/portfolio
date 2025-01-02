@@ -1,0 +1,14 @@
+[
+    {
+        "title": "The little book about OS development",
+        "link": "https://littleosbook.github.io"
+    },
+    {
+        "title": "Flutter App Architecture with Riverpod",
+        "link": "https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/"
+    },
+    {
+        "title": "Papers we love",
+        "link": "https://github.com/papers-we-love/papers-we-love"
+    }
+]
