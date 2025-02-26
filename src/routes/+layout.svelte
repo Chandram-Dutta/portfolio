@@ -15,6 +15,7 @@
 			href="https://links.onlychan.xyz/resume">resume</a
 		>
 		<a class="mr-4 transition hover:underline" href="/work">work</a>
+		<a class="mr-4 transition hover:underline" href="/projects">projects</a>
 		<a class="mr-4 transition hover:underline" href="/socials">socials</a>
 		<a class="mr-4 transition hover:underline" href="/publications">publications</a>
 		<a class="mr-4 transition hover:underline" href="/blogs">blogs</a>

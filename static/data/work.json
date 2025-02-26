@@ -1,6 +1,20 @@
 [
 	{
-		"title": "Adora App",
+		"title": "Adora Inc.",
+		"designation": "Software Engineering Intern",
+		"date": "January 2025 - Present",
+		"location": "Remote",
+		"description": "Working with the amazing team again to build an amazing parental control app.",
+		"skills": "Flutter, Dart, Swift, Firebase, Typescript, GCP",
+		"links": [
+			{
+				"url": "https://www.adora-app.com/",
+				"title": "Adora",
+				"icon": "https://img.icons8.com/ios/50/domain--v1.png"
+			}
+		]
+	},{
+		"title": "Adora Inc.",
 		"designation": "Software Engineering Intern",
 		"date": "February 2024 - July 2024",
 		"location": "Remote",
@@ -26,23 +40,6 @@
 				"url": "https://play.google.com/store/apps/details?id=in.garudaexams.garudaexams",
 				"title": "Play Store",
 				"icon": "https://img.icons8.com/ios/50/google-play--v1.png"
-			}
-		]
-	},
-	{
-		"title": "Flutter Icon Browser",
-		"description": "Browse, search and get the code for any icons available in Flutter across five different packages. Available in Play Store, Desktop and the web.",
-		"skills": "Flutter, Dart",
-		"links": [
-			{
-				"url": "/fluttericonbrowser",
-				"title": "Home Page",
-				"icon": "https://img.icons8.com/ios/50/domain--v1.png"
-			},
-			{
-				"url": "https://github.com/Chandram-Dutta/flutter_icon_browser",
-				"title": "Github",
-				"icon": "https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
 			}
 		]
 	}
